@@ -1,0 +1,14 @@
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\bin\Debug\JanesClothing.exe.config
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\bin\Debug\JanesClothing.exe
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\bin\Debug\JanesClothing.pdb
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.csprojResolveAssemblyReference.cache
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.frmCustomersAdd.resources
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.frmCustomersEdit.resources
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.Form1.resources
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.frmMainForm.resources
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.Properties.Resources.resources
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.csproj.GenerateResource.Cache
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.exe
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.pdb
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.frmProductsEdit.resources
+C:\Users\CAbood\documents\visual studio 2015\Projects\M9Activities\JanesClothing\obj\Debug\JanesClothing.frmProductsAdd.resources
