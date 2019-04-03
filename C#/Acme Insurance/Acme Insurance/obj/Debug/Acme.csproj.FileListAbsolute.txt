@@ -1,0 +1,26 @@
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\bin\Debug\Acme Insurance.exe.config
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\bin\Debug\Acme Insurance.exe
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\bin\Debug\Acme Insurance.pdb
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme.csprojResolveAssemblyReference.cache
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmAbout.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmCategoriesAdd.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmCategoriesSearch.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmCategoriesView.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmCustomersAdd.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmCustomersSearch.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.frmCustomersView.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.frmMainForm.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmProductsAdd.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmProductsSearch.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmProductsView.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmProductTypesAdd.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmProductTypesSearch.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmProductTypesView.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmSalesAdd.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmSalesSearch.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Presentation_Layer.frmTutorial.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.Properties.Resources.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme_Insurance.frmSalesView.resources
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme.csproj.GenerateResource.Cache
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme Insurance.exe
+C:\Users\admin\OneDrive\Programming\C#\Acme Insurance\Acme Insurance\obj\Debug\Acme Insurance.pdb
