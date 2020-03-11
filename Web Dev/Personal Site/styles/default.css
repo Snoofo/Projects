@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Cabin|Josefin+Sans|Open+Sans|Roboto|Ubuntu&display=swap');
+/* imported fonts:
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Cabin', sans-serif;
+
+	images:
+	images/.jpg;
+*/
+
+canvas {
+	border: 3px solid black;
+	margin: 0;
+	background-color: rgba(0,0,0,0.5);
+	/*width: 100%;*/
+}
+
+.medium-canvas {
+	border: 1px solid black;
+	align-self: center;
+	margin: 0;
+	/*width: 100%;*/
+}
+
+.input {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.input-small {
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	height: 30px;
+	width: 30px;
+}
+
+.label-small {
+	color: rgb(219,219, 255);
+	text-shadow: 0px 0px 10px black;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #eee;
+}
+
+canvas {
+}
+
+.background-1 {
+	background-image: url("../images/red_cactus_background.jpg");
+	min-height: 1000px;
+	background-position: center;
+  	background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+	min-height: 1000px;
+	position: relative;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,.15);
+}
+
+header {
+	text-align: center;
+	font-weight: bold;
+	font-size: 3rem;
+	text-shadow: 1px 1px 20px black;
+	color: white;
+	padding: 30px 10px 20px 10px;
+	background-color: rgba(255,190,255, 0.3);
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: rgba(0,0,0,.35);
+}
+
+.nav-link {
+	min-width: 300px;
+	flex: 1;
+	line-height: 15px;
+	font-size: 25px;
+}
+
+.option-bar {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	padding: 10px 10%;
+}
+
+.option-item {
+	flex:1;
+	white-space: nowrap;
+	text-align: center;
+	cursor: pointer;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 5px;
+	font-weight: bold;
+	min-width: 200px;
+	transition: 0.8s;
+}
+.option-item:hover{
+	background-color: rgba(255,255,255,0.5);
+	transition: 0.8s;
+}
+
+.post {
+	padding: 20px 3%;
+	margin: 0 3%;
+	background-color: rgba(222,200,255,0.2);
+	border-radius: 0 0 10px 10px;
+}
+
+#graph{
+	position: relative;
+}
+
+#generate {
+	min-width: 150px;
+}
+
+#displayText {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	height: 30px;
+	position: relative;
+	margin-bottom: -30px;
+}
+
+h1 {
+	/*border-top: 1px solid rgba(222,200,255.5);*/
+	/*border-bottom: 1px solid rgba(0,0,0,0.5);*/
+	color: rgb(219,219, 255);
+	margin: 10px 0 20px 0;
+	font-size: 2.5rem;
+	font-weight: bold;
+  	text-align: center;
+	padding: 0px 10px;
+}
+
+h2 {
+	/*border-top: 1px solid rgba(222,200,255.5);*/
+	/*border-bottom: 1px solid rgba(0,0,0,0.5);*/
+	color: rgb(219,219, 255);
+	margin: 0;
+	font-size: 2rem;
+	font-weight: lighter;
+  	text-align: center;
+	padding: 0px 10px;
+}
+
+/*h2 {
+	padding: 10px 20px;
+	margin: 5px 0px 15px 0px;
+	font-size: 1.5rem;
+	font-family: roboto, Impact, sans-serif;
+	font-weight: lighter;
+	border-radius: 20px 0px;
+	background-color: rgba(111,111,111,0.3);
+  	background-image: linear-gradient(90deg, rgb(100,33,33), rgb(111,111,111));
+}*/
+
+h3 {
+	color: rgba(255,111,111,0.9);
+	padding: 5px 15px;
+	margin: 5px 10px;
+	border-radius: 20px 0px;
+	background-color: rgba(111,111,111,0.3);
+	display: inline-block;
+}
+
+p {
+	font-family: roboto, Impact, sans-serif;
+	font-size: 1rem;
+	padding: 10px 10px 20px 10px;
+	color: rgba(255,255,255,1);
+
+}
+
+a {
+	padding: 10px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+  	transition: 1s;
+}
+
+a:hover {
+	background-color: #fff;
+	color: black;
+  	transition: 1s;
+}
+
+a:visited {
+}
+
+button {
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 2px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+footer {
+	min-height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: rgba(222,222,222,0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-right: 2%;
+    max-height: 10%;
+  	pointer-events: none;
+		justify-content: flex-end;
+}
+
+.footer-div {
+	margin: 2px;
+	font-size: 0.5srem;
+	white-space: nowrap;
+	flex: 1;
+}
+
+footer a {
+	margin: 0;
+	padding: 0;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 4px 8px;
+	border-radius: 10px;
+  	pointer-events: auto;
+}
+
+@media screen and (min-width: 700px){
+
+	nav {
+		justify-content: center;
+		flex-direction: row;
+		position: sticky;
+		top: 0px;
+		z-index: 1;
+	}
+
+	.nav-link {
+		line-height: 30px;
+		max-width: 270px;
+		flex:1;
+		min-width: 0px;
+		display: block;
+	}
+
+	.option-bar {
+		flex-direction: row;
+	}
+
+	.option-item {
+		min-width: 0px;
+		border-right: none;
+	}
+
+	.option-item:last-child{
+		border-right: 2px solid black;
+	}
+
+	#displayText {
+		font-size: 3rem;
+		font-weight: bold;
+		color: white;
+		padding: 10px;
+		text-align: center;
+		height: 30px;
+		margin-bottom: -30px;
+	}
+
+  	header {
+  		font-size: 4rem;
+  	}
+
+  	h1 {
+		font-size: 3rem;
+  		text-align: left;
+  	}
+
+  	h2 {
+		font-size: 2rem;
+  		text-align: left;
+  	}
+
+  	p {
+  		font-size: 1.5rem;
+  	}
+
+  	footer {
+  	}
+
+	.footer-div {
+		flex: none;
+	}
+}
+
+.login-bar {
+	background-color: rgba(255,255,255, 0.3);
+	width: 400px;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	float: right;
+}
+
+.login-div {
+	padding: 5px;
+	flex: 1;
+}
+
+.cart-div {
+	font-size: 20px;
+	flex 1;
+}
+
+.form-field {
+	padding: 10px 0;
+	flex: 1;
+	display: flex;
+}
+
+.form-field label {
+	padding: 6px 2px 0 0;
+}
+
+.form-field input {
+	margin: 2px;
+	padding: 2px;
+	flex: 1;
+}
+
+.login-button {
+	padding: 1px 10px;
+	margin-right: 5px;
+	float: right;
+}

@@ -1,0 +1,77 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="tyre pro, tyres, artarmon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald|Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jscripts/bar.js"></script>
+    <script src="jscripts/graph.js"></script>
+
+    <title>Sorting</title>
+    </head>
+
+    <body>
+        <div class="background-1">
+            <header>Sorting</header>
+                <nav>
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="sorting.html">Sorting</a>
+                    <a class="nav-link" href="searching.html">Searching</a>
+                    <a class="nav-link" href="bubbles.html">Bubbles</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </nav>
+            <div class="container">
+        		<div class="post">
+                    <h1>Sorting Algorithms</h1>
+                    <div class="option-bar">
+                        <div class="option-item" id="insertion">
+                            Insertion
+                        </div>
+                        <div class="option-item" id="bubble">
+                            Bubble
+                        </div>
+                        <div class="option-item" id="selection">
+                            Selection
+                        </div>
+                        <div class="option-item" id="quick">
+                            Quick
+                        </div>
+                        <!-- option-item -->
+                    </div><!-- selection-bar -->
+                    <div id="graph">
+                        <div id="displayText">Finished</div>
+                    </div>
+                    <!-- <canvas id="sorting"></canvas> -->
+                    <div class="input">
+                        <label class="input-small label-small">Number of bars</label>
+                        <input class="input-small" id="numBars" type="text" name="numBars">
+                    </div><!-- input -->
+                    <div class="input">
+                        <label class="input-small label-small"></label>
+                        <button id="generate">Generate</button>
+                    </div><!-- input -->
+        		</div><!-- post -->
+        	</div><!-- container -->
+        	<footer>
+        		<div class="footer-div">
+        			<a href="https://www.facebook.com/stefan.mazaleigue" target="_blank">Facebook</a>
+        			<a href="https://twitter.com/Snoofo" target="_blank">Twitter</a>
+        		</div><!-- footer-div -->
+        		<div class="footer-div">
+        			Copyright @ Stefan Mazaleigue 2019
+                </div><!-- footer-div -->
+        	</footer>
+        </div><!-- background-1 -->
+    </body>
+    <script src="jscripts/sortAlgs/insertionSort.js"></script>
+    <script src="jscripts/sortAlgs/bubbleSort.js"></script>
+    <script src="jscripts/sortAlgs/selectionSort.js"></script>
+    <script src="jscripts/sortAlgs/quickSort.js"></script>
+    <script src="jscripts/sorting.js"></script>
+</html>
